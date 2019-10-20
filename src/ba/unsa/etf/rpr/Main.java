@@ -49,7 +49,7 @@ public class Main {
 //      ili da ide na checkout gdje se obracunava potpuni iznos. Placanje se vrsi unosom pri cemu se validira da li je
 //      unesena negativna, odnosno dovoljna suma novca.
 
-        unosArtikalaUMarket();
+     /*   unosArtikalaUMarket();
         for(;;){
             System.out.print("0 - odustani\n1 - dodaj u korpu\n2 - izbaci iz korpe\n3 - checkout\nUnesite opciju: ");
             Scanner scanner = new Scanner(System.in);
@@ -102,5 +102,8 @@ public class Main {
             }
         }
 
+    }*/
+        unosArtikalaUMarket();
+        ispisArtikala(supermarket.getArtikli());
     }
 }
