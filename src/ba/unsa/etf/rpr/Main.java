@@ -49,7 +49,8 @@ public class Main {
 //      ili da ide na checkout gdje se obracunava potpuni iznos. Placanje se vrsi unosom pri cemu se validira da li je
 //      unesena negativna, odnosno dovoljna suma novca.
 
-     /*   unosArtikalaUMarket();
+        unosArtikalaUMarket();
+
         for(;;){
             System.out.print("0 - odustani\n1 - dodaj u korpu\n2 - izbaci iz korpe\n3 - checkout\nUnesite opciju: ");
             Scanner scanner = new Scanner(System.in);
@@ -101,9 +102,21 @@ public class Main {
                 return;
             }
         }
-
-    }*/
-        unosArtikalaUMarket();
+       /* unosArtikalaUMarket();
         ispisArtikala(supermarket.getArtikli());
+        supermarket.izbaciArtiklSaKodom("14");
+        supermarket.izbaciArtiklSaKodom("13");
+        supermarket.izbaciArtiklSaKodom("12");
+        System.out.println(" ");
+        System.out.println(" ");
+
+        ispisArtikala(supermarket.getArtikli());
+        System.out.println(" ");
+        System.out.println(" ");
+        Artikl a = new Artikl("cips",152,"1234");
+        supermarket.dodajArtikl(a);
+        ispisArtikala(supermarket.getArtikli()); */
+
+
     }
 }
