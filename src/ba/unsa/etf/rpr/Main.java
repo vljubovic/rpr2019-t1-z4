@@ -4,30 +4,30 @@ import java.util.Scanner;
 
 public class Main {
 
-    private static Korpa korpa = new Korpa();
-    private static Supermarket supermarket = new Supermarket();
+    private static Korpa Korpa = new Korpa();
+    private static Supermarket Supermarket = new Supermarket();
 
     private static void unosArtikalaUMarket(){
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "1"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "2"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "3"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "4"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "5"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "6"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "7"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "8"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "9"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "10"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "11"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "12"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "13"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "14"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "15"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "16"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "17"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "18"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "19"));
-        supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "20"));
+        Supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "1"));
+        Supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "2"));
+        Supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "3"));
+        Supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "4"));
+        Supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "5"));
+        Supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "6"));
+        Supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "7"));
+        Supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "8"));
+        Supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "9"));
+        Supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "10"));
+        Supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "11"));
+        Supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "12"));
+        Supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "13"));
+        Supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "14"));
+        Supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "15"));
+        Supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "16"));
+        Supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "17"));
+        Supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "18"));
+        Supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "19"));
+        Supermarket.dodajArtikl(new Artikl("Biciklo", 1000, "20"));
     }
 
     public static void ispisArtikala(Artikl[] artikli){
@@ -61,16 +61,16 @@ public class Main {
             }
             else if(opcija == 1){
                 System.out.println("Dodavanje artikla u korpu\nArtikli u marketu su: ");
-                ispisArtikala(supermarket.getArtikli());
+                ispisArtikala(Supermarket.getArtikli());
                 System.out.println("Unesite kod artikla (unesite malo slovo \"c\" za odustajanje): ");
-                String kod = scanner.nextLine();
+                java.lang.String kod = scanner.nextLine();
                 kod = scanner.nextLine();
                 if(!kod.equals("c")){
-                    Artikl a = supermarket.izbaciArtiklSaKodom(kod);
+                    Artikl a = Supermarket.izbaciArtiklSaKodom(kod);
                     if(a != null){
-                        if(korpa.dodajArtikl(a)) System.out.println("Artikl dodan u korpu.");
+                        if(Korpa.dodajArtikl(a)) System.out.println("Artikl dodan u korpu.");
                         else {
-                            supermarket.dodajArtikl(a);
+                            Supermarket.dodajArtikl(a);
                             System.out.println("Korpa je puna, artikl nije dodan!");
                         }
                     }
@@ -78,20 +78,20 @@ public class Main {
             }
             else if(opcija == 2){
                 System.out.println("Izbacivanje artikla iz korpe\nArtikli u korpi su: ");
-                ispisArtikala(korpa.getArtikli());
+                ispisArtikala(Korpa.getArtikli());
                 System.out.println("Unesite kod artikla (unesite malo slovo \"c\" za odustajanje): ");
                 String kod = scanner.nextLine();
                 kod = scanner.nextLine();
                 if(!kod.equals("c")){
-                    Artikl a = korpa.izbaciArtiklSaKodom(kod);
+                    Artikl a = Korpa.izbaciArtiklSaKodom(kod);
                     if(a != null){
-                        supermarket.dodajArtikl(a);
+                        Supermarket.dodajArtikl(a);
                     }
                 }
             }
             else if(opcija == 3){
-                int cijena = korpa.dajUkupnuCijenuArtikala(), iznos;
-                System.out.println("Ukupna cijena je " + korpa.dajUkupnuCijenuArtikala() + " KM.");
+                int cijena = Korpa.dajUkupnuCijenuArtikala(), iznos;
+                System.out.println("Ukupna cijena je " + Korpa.dajUkupnuCijenuArtikala() + " KM.");
                 do{
                     System.out.print("Unesite ispravan iznos: ");
                     iznos = scanner.nextInt();
