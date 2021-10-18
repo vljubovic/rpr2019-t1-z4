@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="248a8018-3180-4b5e-98e5-232df1229168" name="Changes" comment="Rad na klasi Supermarket">
-      <change beforePath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Korpa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Korpa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Supermarket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Supermarket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634555018612</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Rad na klasi Supermarket">
+      <created>1634555311730</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634555311730</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

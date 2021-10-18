@@ -6,24 +6,24 @@ public class Supermarket {
 
 
     public Artikl[] getArtikli() {
-        return artikli;
+        return Supermarket.artikli;
     }
 
     public void setArtikli(Artikl[] artikli) {
-        this.artikli = artikli;
+        Supermarket.artikli = artikli;
     }
 
     public void dodajArtikl(Artikl artikl) {
-        artikli[brojArtikala] = artikl;
-        brojArtikala++;
+        Supermarket.artikli[brojArtikala] = artikl;
+        Supermarket.brojArtikala++;
     }
 
     public static Artikl izbaciArtiklSaKodom(String kod) {
         Artikl a = null;
         for(int i=0; i<artikli.length; i++) {
             if(artikli[i].getKod().equals(kod)) {
-                a = new Artikl();
-                for(int j=i; j<=artikli.length; j++)artikli[j]=artikli[j+1];
+                a = new Artikl(artikli[i]);
+                for(int j=i; j<=artikli.length; j++)Supermarket.artikli[j]=Supermarket.artikli[j+1];
             }
         }
         return a;

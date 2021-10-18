@@ -11,7 +11,7 @@ public class Artikl {
         setKod(kod);
     }
 
-    public Artikl() {
+    public Artikl(Artikl artikl) {
 
     }
 

@@ -22,7 +22,7 @@ public class Korpa {
         Artikl a = null;
         for(int i=0; i<artikli.length; i++) {
             if(artikli[i].getKod().equals(kod)) {
-                a = new Artikl();
+                a = new Artikl(artikli[i]);
                 for(int j=i; j<=artikli.length; j++)artikli[j]=artikli[j+1];
             }
         }
