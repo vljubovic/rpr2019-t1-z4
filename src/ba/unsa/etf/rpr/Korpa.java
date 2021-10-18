@@ -30,6 +30,11 @@ public class Korpa {
         return a;
     }
 
-    public int dajUkupnuCijenuArtikala() { return  0;
+    public int dajUkupnuCijenuArtikala() {
+        int suma = 0;
+        for(Artikl a : artikli) {
+            suma+=a.getCijena();
+        }
+        return suma;
     }
 }
