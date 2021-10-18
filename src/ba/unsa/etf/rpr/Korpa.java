@@ -14,6 +14,7 @@ public class Korpa {
 
     public boolean dodajArtikl(Artikl artikl) { artikli[brojArtikala] = artikl;
         brojArtikala++;
+        Supermarket.izbaciArtiklSaKodom(artikl.getKod());
         return false;
     }
 
