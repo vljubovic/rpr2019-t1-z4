@@ -29,7 +29,7 @@ public class Korpa {
             if(artikli[i]!=null && artikli[i].getKod().equals(kod)) {
                 Artikl a = artikli[i];
             //    a = new Artikl(artikli[i]);
-                for(int j=i; j<=artikli.length; j++)artikli[j]=artikli[j+1];
+                for(int j=i; j<=brojArtikala; j++)artikli[j]=artikli[j+1];
                 artikli[brojArtikala-1] = null;
                 brojArtikala = brojArtikala -1;
                 return a;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="248a8018-3180-4b5e-98e5-232df1229168" name="Changes" comment="Rad na klasi Artikl, dovrsen kopirajuci konstruktor">
+    <list default="true" id="248a8018-3180-4b5e-98e5-232df1229168" name="Changes" comment="Rad na klasi Supermarket, ispravka greski kod izbacivanja artikla">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
@@ -110,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635140978830</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Rad na klasi Supermarket, ispravka greski kod izbacivanja artikla">
+      <created>1635141196272</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1635141196272</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +138,8 @@
     <MESSAGE value="Rad na klasi Supermarket" />
     <MESSAGE value="Rad na klasi Korpa, metoda dajUkupnuCijenuArtikala" />
     <MESSAGE value="Rad na klasi Artikl, dovrsen kopirajuci konstruktor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rad na klasi Artikl, dovrsen kopirajuci konstruktor" />
+    <MESSAGE value="Rad na klasi Korpa, ispravljene greske" />
+    <MESSAGE value="Rad na klasi Supermarket, ispravka greski kod izbacivanja artikla" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rad na klasi Supermarket, ispravka greski kod izbacivanja artikla" />
   </component>
 </project>

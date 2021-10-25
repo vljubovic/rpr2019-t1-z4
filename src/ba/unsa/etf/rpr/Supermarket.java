@@ -1,9 +1,9 @@
 package ba.unsa.etf.rpr;
 
 public class Supermarket {
-
-    private Artikl[] artikli = new Artikl[1000];
-    int total = 0;
+    //private final int maksimalnoUSupermarketu=1000;
+    private Artikl[] artikli=new Artikl[1000];
+    private int total=0;
 
 
     public Artikl[] getArtikli() {
@@ -28,7 +28,7 @@ public class Supermarket {
             if(artikli[i]!=null && artikli[i].getKod().equals(kod)) {
                 Artikl a = artikli[i];
                 //    a = new Artikl(artikli[i]);
-                for(int j=i; j<=artikli.length; j++)artikli[j]=artikli[j+1];
+                for(int j=i; j<=total; j++)artikli[j]=artikli[j+1];
                 artikli[total-1] = null;
                 total = total -1;
                 return a;
