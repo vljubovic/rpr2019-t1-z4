@@ -12,28 +12,39 @@ public class Korpa {
         this.artikli = artikli;
     }
 
-    public boolean dodajArtikl(Artikl artikl) { artikli[brojArtikala] = artikl;
-        brojArtikala++;
-        Supermarket.izbaciArtiklSaKodom(artikl.getKod());
+
+    public boolean dodajArtikl(Artikl artikl) {
+        if(brojArtikala<50) {
+            artikli[brojArtikala] = artikl;
+            brojArtikala++;
+            return true;
+        }
+
         return false;
     }
 
     public Artikl izbaciArtiklSaKodom(String kod) {
-        Artikl a = null;
-        for(int i=0; i<artikli.length; i++) {
-            if(artikli[i].getKod().equals(kod)) {
-                a = new Artikl(artikli[i]);
+    //    Artikl a = null;
+        for(int i=0; i<brojArtikala; i++) {
+            if(artikli[i]!=null && artikli[i].getKod().equals(kod)) {
+                Artikl a = artikli[i];
+            //    a = new Artikl(artikli[i]);
                 for(int j=i; j<=artikli.length; j++)artikli[j]=artikli[j+1];
+                artikli[brojArtikala-1] = null;
+                brojArtikala = brojArtikala -1;
+                return a;
             }
         }
 
-        return a;
+       return null;
     }
 
     public int dajUkupnuCijenuArtikala() {
         int suma = 0;
         for(Artikl a : artikli) {
-            suma+=a.getCijena();
+            if (a!=null) {
+                suma+=a.getCijena();
+            }
         }
         return suma;
     }

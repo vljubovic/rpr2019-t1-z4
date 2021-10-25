@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="248a8018-3180-4b5e-98e5-232df1229168" name="Changes" comment="Rad na klasi Korpa, metoda dajUkupnuCijenuArtikala">
+    <list default="true" id="248a8018-3180-4b5e-98e5-232df1229168" name="Changes" comment="Rad na klasi Artikl, dovrsen kopirajuci konstruktor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634555986714</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Rad na klasi Artikl, dovrsen kopirajuci konstruktor">
+      <created>1635140471429</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1635140471429</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,12 +116,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Main ne vraca vise gresku" />
     <MESSAGE value="Rad na klasi Korpa" />
     <MESSAGE value="Rad na klasi Supermarket" />
     <MESSAGE value="Rad na klasi Korpa, metoda dajUkupnuCijenuArtikala" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rad na klasi Korpa, metoda dajUkupnuCijenuArtikala" />
+    <MESSAGE value="Rad na klasi Artikl, dovrsen kopirajuci konstruktor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rad na klasi Artikl, dovrsen kopirajuci konstruktor" />
   </component>
 </project>
