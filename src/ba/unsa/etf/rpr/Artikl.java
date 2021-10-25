@@ -12,7 +12,9 @@ public class Artikl {
     }
 
     public Artikl(Artikl artikl) {
-
+        setNaziv(artikl.naziv);
+        setCijena(artikl.cijena);
+        setKod(artikl.kod);
     }
 
     public String getNaziv() {

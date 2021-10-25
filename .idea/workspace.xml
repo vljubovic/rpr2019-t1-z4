@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="248a8018-3180-4b5e-98e5-232df1229168" name="Changes" comment="Rad na klasi Supermarket">
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
+    <list default="true" id="248a8018-3180-4b5e-98e5-232df1229168" name="Changes" comment="Rad na klasi Korpa, metoda dajUkupnuCijenuArtikala">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,6 +10,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1zfxwJNumwWDRYK7RypY2yiQG4o" />
@@ -20,6 +25,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -78,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634555643442</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Rad na klasi Korpa, metoda dajUkupnuCijenuArtikala">
+      <created>1634555986714</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1634555986714</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +112,7 @@
     <MESSAGE value="Main ne vraca vise gresku" />
     <MESSAGE value="Rad na klasi Korpa" />
     <MESSAGE value="Rad na klasi Supermarket" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rad na klasi Supermarket" />
+    <MESSAGE value="Rad na klasi Korpa, metoda dajUkupnuCijenuArtikala" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rad na klasi Korpa, metoda dajUkupnuCijenuArtikala" />
   </component>
 </project>
